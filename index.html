@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Monks World</title>
+    
+     <link href="style.css" type="text/css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <div class="heading">
+    
+    <h1>How Big is Your Dick?</h1>
+        
+        <img src="http://1.media.collegehumor.cvcdn.com/25/65/8ad8d98918283922d62ecc9bf229b6b7.jpg">
+        
+    </div>
+
+    <div class="container">
+    
+<button class="button" onclick="numara()">See Now!</button>
+
+<p id="demo"></p>
+
+<script>
+
+    
+var randomNumber = Math.floor(Math.random() * 100);
+
+function numara() {
+        
+if (randomNumber <= 25) {
+  document.getElementById("demo").innerHTML = ("small");
+} else if (randomNumber >25 && randomNumber <=50 ) 
+ {
+  document.getElementById("demo").innerHTML = ("slightly below average"); 
+ } else if (randomNumber >50 && randomNumber <=75 )
+   {
+     document.getElementById("demo").innerHTML = ("slightly above average");
+   } else {
+     document.getElementById("demo").innerHTML = ("big");
+   }
+    
+}
+    
+    
+</script>
+        
+    </div>
+
+    
+</body>
+
+<footer>
+
+
+    
+</footer>
+    
+</html>

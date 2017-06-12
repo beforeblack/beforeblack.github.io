@@ -1,0 +1,46 @@
+.button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8) 
+}
+
+#demo {
+    font-size: 60px;
+    color: lawngreen;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    color: beige;
+}
+
+img {
+    width: 160px;
+    margin-left: 43.89%;
+}
+
+p {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    background-image: url(Dany-and-Drogo-daenerys-targaryen-31147287-1280-720.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;   
+}
