@@ -7,7 +7,7 @@
     
     <link rel="icon" href="/Images/work_hard.png">
     
-     <link href="style.css" type="text/css" rel="stylesheet">
+     <link href="youtube.css" type="text/css" rel="stylesheet">
     
      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel|Didact+Gothic|Playfair+Display+SC" rel="stylesheet">
     
@@ -25,7 +25,7 @@
                     <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#news">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
                 
                 <form>
@@ -38,7 +38,7 @@
 
             <div class="banner">
                
-                <a href="#"><img src="Images/work_hard.png"></a>
+                <a href="../index.html"><img src="../Images/work_hard.png"></a>
                 
                  
                 <h1> Before Black </h1>
@@ -52,8 +52,8 @@
         <div class="menu">
             
             <ul>
-                <li><a href="pages/youtube.html">Youtube</a></li>
-                <li><a href="pages/instagram.html">Instagram</a></li>
+                <li><a href="youtube.html">Youtube</a></li>
+                <li><a href="instagram.html">Instagram</a></li>
                 <li><a href="#contact">Linked-In</a></li>
                 <li><a href="#about">Archive</a></li>
             </ul>
@@ -62,24 +62,38 @@
     
         <div class="container">
             
-            <div class="posts">
-                
-                <h3>Latest Posts</h3>
+            <div class="title">
             
-                <ul>
-                
-                    <li><a class="active"><img src="Images/work_hard.png">
-                        <h4>Title</h4><p>and expoand expoand expoand expoand expoand expo</p></a></li>
-                    <li><a><img src="Images/work_hard.png">
-                        <h4>Title</h4><p>and expoand expoand expoand expoand expoand expo</p></a></li>
-                    <li><a><img src="Images/work_hard.png">
-                        <h4>Title</h4><p>and expoand expoand expoand expoand expoand expo</p></a></li>
-                    <li><a><img src="Images/work_hard.png">
-                        <h4>Title</h4><p>and expoand expoand expoand expoand expoand expo</p></a></li>
-                    
-                </ul>
+                <h3>Youtube Videos</h3>
+            
+            </div>
+            
+            <div class="vid">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hIrZn2IFXgE" frameborder="0" allowfullscreen></iframe>
                 
             </div>
+            
+            <div class="youtube">
+            
+            <script src="https://apis.google.com/js/platform.js"></script>
+
+<script>
+  function onYtEvent(payload) {
+    if (payload.eventType == 'subscribe') {
+      // Add code to handle subscribe event.
+    } else if (payload.eventType == 'unsubscribe') {
+      // Add code to handle unsubscribe event.
+    }
+    if (window.console) { // for debugging only
+      window.console.log('YT event: ', payload);
+    }
+  }
+</script>
+
+<div class="g-ytsubscribe" data-channelid="UC6-HobukNrc9ZsLwIzR0SUg" data-layout="full" data-theme="dark" data-count="hidden" data-onytevent="onYtEvent"></div>
+                
+                </div>
             
         </div>
         
