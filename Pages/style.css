@@ -72,6 +72,10 @@ text-align: center;
     text-align: center;
 }
 
+.col-sm-12 h2 {
+font-family: 'Rock Salt', cursive;
+}
+
 .but {
     padding-left: 95px;
 }
@@ -95,4 +99,10 @@ footer{
 
 footer p{
    margin-top: 1.5%;
+}
+
+.hakkinda {
+    margin-left: 12.5%;
+    width: 75%;
+    font-family: 'Kelly Slab', cursive;
 }
