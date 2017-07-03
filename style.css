@@ -7,19 +7,19 @@ ul {
 
 li {
     float: left;
-    margin-left: 7%;
+    margin-left: 10%;
     align-items: center;
     font-family: 'Special Elite', cursive;
     font-size: 18px;
 }
 
 li a {
-    display: block;
+   display: block;
     color: black;
     text-align: center;
-    padding: 10px 26px;
+    padding: 14px 16px;
     text-decoration: none;
-    width: 180px;
+    width: 130px;
 }
 
 li a:hover {
