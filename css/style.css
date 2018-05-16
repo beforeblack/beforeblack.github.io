@@ -38,12 +38,6 @@ body {
     margin-bottom: 2%;
 }
 
-.mainbody input:hover {
-    background: gray;
-    opacity: 0.7;
-    cursor: pointer;
-}
-
 .mainbody button {
     height: 50px;
     width: auto;
